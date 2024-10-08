@@ -1,4 +1,4 @@
-# KARPENTER to Existing EKS
+# KARPENTER to the existing EKS
 
 ## Usefull URLS
 *  [https://rtfm.co.ua/aws-znajomstvo-z-karpenter-dlya-avtoskejlingu-v-eks-ta-vstanovlennya-z-helm-chartu/](https://rtfm.co.ua/aws-znajomstvo-z-karpenter-dlya-avtoskejlingu-v-eks-ta-vstanovlennya-z-helm-chartu/)
