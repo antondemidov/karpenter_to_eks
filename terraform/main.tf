@@ -65,12 +65,12 @@ resource "aws_iam_role" "karpenter_controller_role" {
       {
         Effect = "Allow",
         Principal = {
-          Federated = "arn:aws:iam::826842160223:oidc-provider/oidc.eks.us-east-1.amazonaws.com/id/DB9CF4A3134A38E9B6229C780E353442"
+          Federated = "arn:aws:iam::ACCOUNT:oidc-provider/oidc.eks.us-east-1.amazonaws.com/id/ID"
         },
         Action = "sts:AssumeRoleWithWebIdentity",
         Condition = {
           "StringEquals" = {
-            "oidc.eks.us-east-1.amazonaws.com/id/DB9CF4A3134A38E9B6229C780E353442:aud" = "sts.amazonaws.com"
+            "oidc.eks.us-east-1.amazonaws.com/id/ID:aud" = "sts.amazonaws.com"
           }
         }
       }
